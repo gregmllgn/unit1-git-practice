@@ -165,6 +165,28 @@ branch 'main' set up to track 'origin/main'.
 
 
 ### Step 6
+$ git add .
+
+Greg@Greg-HP MINGW64 ~/Desktop/unit1-git-practice (main)
+$ git commit -m 'menu added'
+[main 4ec7cdd] menu added
+ 3 files changed, 180 insertions(+), 9 deletions(-)
+ create mode 100644 menu.txt
+ create mode 100644 ~WRL0269.tmp
+
+Greg@Greg-HP MINGW64 ~/Desktop/unit1-git-practice (main)
+$ git push
+Enumerating objects: 6, done.
+Counting objects: 100% (6/6), done.
+Delta compression using up to 4 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 1.42 KiB | 1.42 MiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/gregmllgn/unit1-git-practice.git
+   fcff465..4ec7cdd  main -> main
+
+Greg@Greg-HP MINGW64 ~/Desktop/unit1-git-practice (main)
 
 
 ### Step 7
